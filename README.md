@@ -29,7 +29,7 @@ app:rightPositionOffset 初始指示器 Drawable 右到左边界权重
 ##### 使用代码控制指示器 Drawable 的位置：
 ```
 // left 代表 Drawable 左到左边界的距离，以像素为单位
-// right 代表 Drawable 左到左边界的距离，以像素为单位
+// right 代表 Drawable 右到左边界的距离，以像素为单位
 // 布尔值代表从旧位置移动到新位置是否进行动画
 slideIndicator.setIndicatorTo(left, right, false); 
 ```
